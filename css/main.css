@@ -1,0 +1,71 @@
+/* Overall Styles */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  margin: 0 0 20px 0;
+  background-color: #dbf1ff;
+}
+
+/* Font styles */
+h1 {
+  text-transform: uppercase;
+  text-align: right;
+  color: #325e78;
+  padding: 25px 0 0 0;
+}
+h2 {
+  color: #4b8bb2;
+  margin: 30px 0 10px 5px;
+}
+h3 {
+  text-transform: uppercase;
+  color: #4b8bb2;
+}
+p {
+  margin: 10px 0 0 0;
+}
+.header-font {
+  text-transform: uppercase;
+  text-align: right;
+  color: #325e78;
+  line-height:18px;
+  font-size: 15px;
+}
+
+/* Spacing styles */
+hr {
+  background-color: #b27f39;
+  height: 4px;
+}
+.space-top {
+  margin: 20px 0 0 0;
+}
+
+/* Link styles */
+.cursor-link {
+  cursor: pointer;
+}
+.link-style {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 820px) {
+  h2 {
+    margin: 25px 0 10px 0;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 525px) {
+  h1 {
+    padding: 5px 0 0 0;
+    }
+}
