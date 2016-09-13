@@ -5,9 +5,11 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
+
 body {
   margin: 0 0 20px 0;
   background-color: #dbf1ff;
@@ -20,22 +22,26 @@ h1 {
   color: #325e78;
   padding: 25px 0 0 0;
 }
-h2 {
+
+h3 {
   color: #4b8bb2;
   margin: 30px 0 10px 5px;
 }
-h3 {
+
+h4 {
   text-transform: uppercase;
   color: #4b8bb2;
 }
-p {
+
+p, h2 {
   margin: 10px 0 0 0;
 }
+
 .header-font {
   text-transform: uppercase;
   text-align: right;
   color: #325e78;
-  line-height:18px;
+  line-height: 18px;
   font-size: 15px;
 }
 
@@ -44,6 +50,7 @@ hr {
   background-color: #b27f39;
   height: 4px;
 }
+
 .space-top {
   margin: 20px 0 0 0;
 }
@@ -52,6 +59,7 @@ hr {
 .cursor-link {
   cursor: pointer;
 }
+
 .link-style {
   text-align: center;
   padding: 0 0 20px 0;
@@ -62,10 +70,11 @@ hr {
   h2 {
     margin: 25px 0 10px 0;
     text-align: center;
-    }
+  };
 }
+
 @media screen and (max-width: 525px) {
   h1 {
     padding: 5px 0 0 0;
-    }
+  };
 }
